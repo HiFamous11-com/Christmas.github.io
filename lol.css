@@ -1,0 +1,95 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp5121842.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: 300ms all ease-in-out;
+}
+
+body {
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  p {
+    animation-name: fade;
+    animation-duration: 3s;
+    transition: 400ms all ease-in-out;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+details {
+    text-align: left;
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    transition: 400ms all ease-in-out;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.funny {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+.lol {
+  text-align: center;
+  font-size: 1.7rem;
+  background-color: lightgray;
+  padding: 0.5rem;
+  margin: 5vh 5vw;
+}
+
+@media only screen and (max-width:920px) {
+  p {
+    font-size: 0.75rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .funny {
+    font-size: 1rem;
+  }
+
+  details {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:529px) {
+  .lol {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width:920px) {
+  .lol {
+    font-size: 2rem;
+  }
+}
