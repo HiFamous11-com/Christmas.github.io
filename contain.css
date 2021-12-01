@@ -3,3 +3,34 @@
     padding: 1.5rem;
     margin: 5vh 5vw;
 }
+
+.date-contain {
+    background-color: blanchedalmond;
+    border-radius: 5.5px;
+    border-color: lightcyan;
+    border-width: 6.5px;
+    align-content: center;
+    padding: 0.5rem;
+    margin: 20vh 20vw;
+    transition: 300ms all ease-in-out;
+}
+
+.large-contain {
+    background-color: lightskyblue;
+    border-radius: 5.5px;
+    border-color: lightcyan;
+    border-width: 6.5px;
+    padding: 0.5rem;
+    margin: 15vh 15vw;
+    transition: 300ms all ease-in-out;
+}
+
+@media only screen and (min-width:920px) {
+    .contain {
+      margin: 30vh 30vw;
+    }
+
+    .date-contain {
+        margin: 40vh 40vw;
+    }
+  }
