@@ -98,3 +98,17 @@ h2 {
     font-size: 2rem;
   }
 }
+
+@media only screen and (max-width:360px) {
+  .lol {
+    font-size:  1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
