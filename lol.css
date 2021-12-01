@@ -61,6 +61,11 @@ h2 {
 }
 
 @media only screen and (max-width:920px) {
+  
+  body {
+    background-image: url("https://assets.hongkiat.com/uploads/minimalist-mobile-wallpapers/original/28.jpg");
+  }
+
   p {
     font-size: 0.75rem;
   }
