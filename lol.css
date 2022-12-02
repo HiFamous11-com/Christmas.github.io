@@ -50,10 +50,12 @@ h2 {
 .funny {
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
+    margin: 5vh 5vw;
+    text-align: center;
 }
 
 .lol {
-  text-align: center;
+
   font-size: 1.7rem;
   background-color: lightgray;
   padding: 0.5rem;
