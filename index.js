@@ -36,3 +36,8 @@
           document.getElementById("demb").innerHTML ="Happy Christmas!";
         }
       }, 1000);
+      
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
